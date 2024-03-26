@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Get Link Coursera",
+    "version": "1.0",
+    "description": "Get Link Coursera",
+    "permissions": [
+        "activeTab"
+    ],
+    "background": {
+        "scripts": [
+            "assets/js/main.js"
+        ],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_title": "Remove Required Attributes",
+        "default_icon": "assets/img/icon.png"
+    }
+}
